@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde sus inicios, las organizaciones han requerido una comunicación efectiva para alcanzar sus objetivos, establecer relaciones sólidas y garantizar el buen funcionamiento interno y externo. En esta primera unidad, se abordará el papel estratégico de la comunicación dentro del entorno empresarial, analizando su influencia en la cultura organizacional, la toma de decisiones, la resolución de conflictos y el trabajo colaborativo.
+              p.descripcion.mb-4 Desde una perspectiva contemporánea, el cambio se ha convertido en una constante en todos los entornos, haciendo de la motivación un factor clave para afrontarlo con éxito. En esta unidad, se explorarán las teorías que explican la motivación humana, los tipos de motivación que influyen en nuestras decisiones y los factores que inciden en la disposición de las personas para aceptar y liderar procesos de transformación. Así mismo, se analizará cómo la motivación se relaciona directamente con la eficacia en el logro de objetivos y se desarrollarán habilidades personales y sociales esenciales para promover cambios significativos en contextos laborales y personales.
 
-              p #[b ¡Prepárese para fortalecer sus competencias comunicativas y potenciar su desempeño en equipos de trabajo empresariales!]
+              p #[b ¡Prepárese para transformar su manera de afrontar el cambio y potenciar su desarrollo personal y profesional!]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

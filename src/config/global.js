@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '1',
-    tituloUnidad: 'Comunicación en el entorno empresarial',
+    numeroUnidad: '3',
+    tituloUnidad: 'Motivación y orientación al cambio',
   },
   menuPrincipal: {
     menu: [
@@ -15,25 +15,107 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Importancia de la comunicación en la empresa',
+        titulo: 'Teorías de la motivación',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.1',
+            titulo: 'Tipos de motivación',
+            hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Factores que influyen en la motivación',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Etapas en el proceso de cambio',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Teorías de la motivación',
+            hash: 't_1_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Función estratégica de la comunicación',
+        titulo: 'Tipos de motivación y estándares de eficacia',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Motivación intrínseca/extrínseca',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Motivación biológica',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Motivación social',
+            hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo: 'Motivación al logro',
+            hash: 't_2_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.5',
+            titulo: 'Eficacia',
+            hash: 't_2_5',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Tipos de comunicación',
+        titulo:
+          'Habilidades personales y sociales necesarias para la motivación al cambio',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Autoconocimiento, autoconciencia y autodisciplina',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Gestión emocional',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Comunicación asertiva',
+            hash: 't_3_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.4',
+            titulo: 'Empatía y red de apoyo',
+            hash: 't_3_4',
+          },
+        ],
       },
       {
         nombreRuta: 'sintesis',
@@ -73,117 +155,138 @@ export default {
   referencias: [
     {
       referencia:
-        'Díaz Pérez, S. y Guzmán Góngora, C. D. L. Á. (2014). Una mirada a la racialidad desde la comunicación organizacional: ( ed.). La Habana, Cuba: Editorial Universitaria.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/71605?page=14',
+        'Gallardo Vázquez, P. y Camacho Herrera, J. M. (2016). La motivación y el aprendizaje en educación: ( ed.). Sevilla, Spain: Wanceulen Editorial.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/33740?page=10',
     },
     {
       referencia:
-        'Sayago, L. (2009). Investigación en comunicación organizacional: ( ed.). Santa Fe, Argentina, Argentina: El Cid Editor | apuntes.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/28706?page=4',
+        'Palmero Cantero, F. Gómez Íñiguez, C. y Guerrero Rodríguez, C. (2016). Manual de prácticas de motivación y emoción: ( ed.). Castelló de la Plana, Spain: Universitat Jaume I. Servei de Comunicació i Publicacions.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/51672?page=17',
     },
     {
       referencia:
-        'Fernández Belda, J. (2014). La empresa pendiente: cambio organizacional a través de personas: ( ed.). Ugerman Editor.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/78912?page=90',
-    },
-    {
-      referencia:
-        'Pacheco, R. (2006). Competencias claves para la comunicación organizacional: ( ed.). Red Revista Latinoamericana de Comunicación CHASQUI.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/17891?page=1',
-    },
-    {
-      referencia:
-        'Quintana, J. y Soler, C. (2011). Anticípate: (1 ed.). Madrid, LID Editorial España.',
+        'Aguado, L. (2015). Emoción, afecto y motivación: un enfoque de procesos: ( ed.). Madrid, Mexico: Difusora Larousse - Alianza Editorial.',
       link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/271223?page=27',
+        'https://elibro.net/es/ereader/tecnologicadeloriente/45414?page=279',
     },
     {
       referencia:
-        'Castro, A. D. (2014). Comunicación organizacional: técnicas y estrategias: ( ed.). Universidad del Norte.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/69924?page=22',
+        'Fernández Azcorta, E. J. Sáenz-López Buñuel. (2016). Motivación, inteligencia emocional y actividad física en universitarios: ( ed.). Huelva, Spain: Universidad de Huelva.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/44742?page=34',
     },
     {
       referencia:
-        'García Soidán, P. & Días Fouces, O. (2014). Redes y retos: estudios sobre la comunicación en la era digital: ( ed.). Ediciones Octaedro, S.L.',
+        'Ramos Ramos, P. (Coord.) (2017). Inteligencia emocional: control del estrés: (3 ed.). Málaga, Editorial ICB.',
       link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/113684?page=10',
+        'https://elibro.net/es/ereader/tecnologicadeloriente/106679?page=45',
+    },
+    {
+      referencia:
+        'Gonzalez Molina, M. G. (Il.) y Calixto Sandoval, N. P. (Il.) (2024). Desarrolla tus habilidades y potencia tu vida: (1 ed.). Bogotá, Editorial Politécnico Grancolombiano.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/279920?page=10',
     },
   ],
   glosario: [
     {
-      termino: 'Asertividad',
+      termino: 'Autoconfianza',
       significado:
-        'Habilidad de expresar ideas y sentimientos de manera clara y respetuosa.',
+        'Creencia en las propias capacidades y habilidades, fundamental para enfrentar cambios y persistir en la consecución de objetivos.',
     },
     {
-      termino: 'Canal de comunicación',
+      termino: 'Autoeficacia',
       significado:
-        'Medio a través del cual se transmite un mensaje en la organización.',
+        'Creencia en la capacidad propia para realizar acciones necesarias para alcanzar metas, concepto desarrollado por Albert Bandura.',
     },
     {
-      termino: 'Clima organizacional',
+      termino: 'Apoyo social',
       significado:
-        'Percepción colectiva sobre el ambiente de trabajo en una empresa.',
+        'Influencia positiva de amigos, familiares y colegas en la disposición de una persona para aceptar y gestionar el cambio.',
     },
     {
-      termino: 'Colaboración',
+      termino: 'Cambio',
       significado:
-        'Trabajo conjunto entre personas para alcanzar un objetivo común.',
+        'Proceso de transformación en la vida personal, profesional o social que requiere adaptabilidad y puede conllevar desafíos.',
     },
     {
-      termino: 'Comunicación',
+      termino: 'Contemplación',
       significado:
-        'Proceso de intercambio de información entre individuos o grupos.',
+        'Segunda etapa donde la persona reconoce la necesidad de cambio y busca información.',
     },
     {
       termino: 'Comunicación asertiva',
       significado:
-        'Expresión de pensamientos y emociones de manera clara y sin agresividad.',
+        'Habilidad para expresar pensamientos y necesidades de manera clara y respetuosa, fundamental para mantener relaciones saludables durante el proceso de cambio.',
     },
     {
-      termino: 'Comunicación verbal',
+      termino: 'Expectativa',
       significado:
-        'Uso del lenguaje hablado o escrito para transmitir un mensaje.',
+        'Creencia de que el esfuerzo conducirá a un rendimiento satisfactorio.',
     },
     {
-      termino: 'Confianza',
+      termino: 'Factores motivacionales',
       significado:
-        'Creencia en la fiabilidad y honestidad de los miembros de un equipo.',
+        'Elementos que fomentan un alto nivel de compromiso y rendimiento, como el reconocimiento y la realización personal.',
     },
     {
-      termino: 'Cultura organizacional',
+      termino: 'Factores higiénicos',
       significado:
-        'Conjunto de valores y normas que caracterizan a una empresa.',
+        'Aspectos necesarios para evitar la insatisfacción, como el salario y las condiciones laborales.',
     },
     {
-      termino: 'Empatía',
+      termino: 'Inteligencia emocional',
       significado:
-        'Capacidad de comprender y compartir los sentimientos de otros.',
+        'Capacidad de reconocer y manejar las propias emociones y las de los demás, esencial para la gestión emocional en el cambio.',
     },
     {
-      termino: 'Escucha activa',
+      termino: 'Metas SMART',
       significado:
-        'Atención plena y comprensiva a los mensajes del interlocutor.',
+        'Objetivos que son Específicos, Medibles, Alcanzables, Relevantes y Temporales, utilizados para fomentar la motivación y la claridad en el proceso de cambio.',
     },
     {
-      termino: 'Feedback',
+      termino: 'Motivación intrínseca',
       significado:
-        'Retroalimentación sobre el desempeño o la comunicación en el trabajo.',
+        'Tipo de motivación que surge del interior del individuo, impulsada por el interés personal, la curiosidad o la satisfacción de realizar una actividad.',
     },
     {
-      termino: 'Liderazgo',
+      termino: 'Motivación extrínseca',
       significado:
-        'Capacidad de influir y motivar a un equipo para alcanzar objetivos.',
+        'Motivación que proviene de factores externos, como recompensas o reconocimiento social.',
     },
     {
-      termino: 'Trabajo en equipo',
+      termino: 'Necesidades fisiológicas',
       significado:
-        'Cooperación entre personas para lograr una meta compartida.',
+        'Requerimientos básicos para la supervivencia, como alimentación y agua.',
     },
     {
-      termino: 'Transparencia',
+      termino: 'Necesidades de amor y pertenencia',
       significado:
-        'Honestidad y apertura en la comunicación dentro de una organización.',
+        'Impulso a establecer relaciones interpersonales y búsqueda de aceptación social.',
+    },
+    {
+      termino: 'Necesidades de seguridad',
+      significado:
+        'Necesidades relacionadas con la estabilidad física y emocional, como un empleo seguro.',
+    },
+    {
+      termino: 'Preparación',
+      significado:
+        'Tercera etapa donde se planifica y se establecen metas concretas para el cambio.',
+    },
+    {
+      termino: 'Resiliencia',
+      significado:
+        'Capacidad de adaptarse positivamente ante la adversidad y mantener el esfuerzo frente a los obstáculos.',
+    },
+    {
+      termino: 'Teoría del cambio de comportamiento',
+      significado:
+        'Modelo desarrollado por Prochaska y DiClemente que describe las etapas por las que las personas pasan al enfrentar un cambio.',
+    },
+    {
+      termino: 'Teoría de la jerarquía de necesidades',
+      significado:
+        'Propuesta de Abraham Maslow que clasifica las necesidades humanas en una pirámide, desde las fisiológicas hasta la autorrealización.',
     },
   ],
 }

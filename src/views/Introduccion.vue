@@ -3,59 +3,44 @@
   BannerInterno(subTitulo="Introducción")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
 
-    .row.mb-4
+    .row.mb-4 
       .col-12.col-xl-8
-        .d-flex.align-items-start.bg-azul.p-4.mb-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+        p.mb-4 En el contexto actual, donde la adaptación y el cambio son constantes, la comprensión de la motivación se convierte en un elemento esencial, tanto en el ámbito personal como profesional. Esta unidad se enfoca en la motivación y la orientación al cambio, temas que son fundamentales para el desarrollo de habilidades que permitirán a los estudiantes enfrentar los desafíos de un entorno en constante evolución. Se explorarán teorías de la motivación, así como los diferentes tipos de motivación y los estándares de eficacia que guían el comportamiento humano.
+        .d-flex.align-items-start.bg-azul.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
           img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-1.svg', alt='Texto descriptivo de la imagen')
           .my-auto
-            p.pe-xl-3.mb-0 La comunicación en el entorno empresarial, es un aspecto fundamental que influye directamente en el éxito y la eficacia de cualquier organización. En esta unidad, se explorará la relevancia de la comunicación en el ámbito empresarial, destacando no solo sus ventajas, sino también los inconvenientes que pueden surgir si no se gestiona adecuadamente. Se abordará la función estratégica de la comunicación, la cual se erige como un pilar en la toma de decisiones y en la construcción de relaciones efectivas, tanto internas como externas. Asimismo, se presentarán los diferentes tipos de comunicación que existen en el entorno laboral, proporcionando un marco claro para entender cómo cada uno de ellos contribuye a los objetivos organizacionales.
-        p.mb-4 Al finalizar esta unidad, se espera que los participantes adquieran habilidades y conocimientos que les permitan identificar la importancia de una comunicación efectiva, así como implementar estrategias que optimicen la interacción en su entorno laboral. Se busca que los estudiantes comprendan cómo una comunicación bien estructurada, puede mejorar el clima organizacional y potenciar la productividad.
-        span La motivación detrás de este estudio, radica en la aplicación práctica de estos conceptos en la vida profesional.
+            p.pe-xl-3.mb-0 Al finalizar esta unidad, se espera que los estudiantes puedan identificar y aplicar diversas teorías de la motivación en situaciones reales, además de reconocer las habilidades personales y sociales necesarias para facilitar el cambio. Este conocimiento no solo enriquecerá su formación académica, sino que también será una herramienta valiosa en su futuro profesional, donde la capacidad de motivar a otros y a uno mismo, será clave para el éxito.
       .col-4.d-none.d-xl-block
         img(src='@/assets/curso/unidad/img-2.png', alt='Texto que describa la imagen')
 
-    .row.bg-fondo-1.bg-full-width.py-4.mb-4
-      div.px-5.pb-md-3
-
-        .row.mb-4
-          .col-3.d-none.d-xl-block
-            img(src='@/assets/curso/unidad/img-3.png', alt='Texto que describa la imagen')
-          .col-12.col-xl-9
-            .bg-amarillo.p-4.mb-4(data-aos='fade-up')
-              p.mb-3 La comunicación efectiva es una competencia altamente valorada en el mercado laboral actual, y dominarla puede abrir puertas en diversas áreas y contribuir al desarrollo de una carrera exitosa. 
-              span Ejemplos de situaciones cotidianas en el trabajo, como la gestión de conflictos, la presentación de ideas o la dirección de equipos, ilustran la trascendencia de una comunicación bien gestionada.
-            span La unidad está estructurada de manera que se abordarán progresivamente los siguientes temas:
-
-        .row.mb-0
-          .col-10.col-md-6
-            .d-flex.align-items-start.bg-verde.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-              img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-4.svg', alt='Texto descriptivo de la imagen')
-              .my-auto
-                p.pe-xl-3.mb-4.text-bold Se inicia con
-                span La importancia de la comunicación en la empresa.
-          .col-10.col-md-6
-            .d-flex.align-items-start.bg-verde.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-              img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-5.svg', alt='Texto descriptivo de la imagen')
-              .my-auto
-                p.pe-xl-3.mb-4.text-bold Se continúa con
-                span Su función estratégica.
-          .col-10.col-md-6
-            .d-flex.align-items-start.bg-verde.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-              img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-6.svg', alt='Texto descriptivo de la imagen')
-              .my-auto
-                p.pe-xl-3.mb-4.text-bold Se dan a conocer
-                span Los distintos tipos de comunicación.
-          .col-10.col-md-6
-            .d-flex.align-items-start.bg-verde.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-              img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-7.svg', alt='Texto descriptivo de la imagen')
-              .my-auto
-                p.pe-xl-3.mb-4.text-bold Se llevan a cabo
-                span Actividades interactivas que permitirán aplicar lo aprendido, en contextos reales.
-
-    .row.bg-verde-oscuro.bg-full-width.py-4
-      .col-12.col-xl-8
-        span.text-white Se invita a los participantes a mantener un compromiso activo durante el desarrollo de la unidad. La participación en las actividades y el estudio de los contenidos será esencial para maximizar el aprendizaje. Se sugiere revisar conceptos previos relacionados con la comunicación básica, dado que esto facilitará una comprensión más profunda de los temas tratados. Con la intención de fomentar un ambiente de aprendizaje enriquecedor, se anima a todos a contribuir con sus perspectivas y experiencias en el ámbito empresarial.
+    p.mb-4 La relevancia de esta unidad reside en el impacto que la motivación tiene en el desarrollo personal y profesional. Por ejemplo, el entendimiento de las dinámicas motivacionales puede ser aplicado en entornos laborales para mejorar el rendimiento y fomentar un ambiente colaborativo. Asimismo, la orientación al cambio es crucial para aquellos que buscan liderar proyectos innovadores o transitar por nuevas etapas en su vida personal. La unidad está estructurada en tres secciones:
+    .row.mb-4 
       .col-4.d-none.d-xl-block
-        img(src='@/assets/curso/unidad/img-8.png', alt='Texto que describa la imagen') 
+        img(src='@/assets/curso/unidad/img-3.png', alt='Texto que describa la imagen')
+      .col-12.col-xl-8
+        .d-flex.align-items-start.bg-verde.p-3(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+          img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-4.svg', alt='Texto descriptivo de la imagen')
+          .my-auto
+            p.pe-xl-3.mb-2.text-bold Sección 1
+            span Revisión de las teorías de la motivación.
+        .d-flex.align-items-start.bg-verde.p-3(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+          img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-5.svg', alt='Texto descriptivo de la imagen')
+          .my-auto
+            p.pe-xl-3.mb-2.text-bold Sección 2
+            span Análisis de los tipos de motivación y su relación con los estándares de eficacia.
+        .d-flex.align-items-start.bg-verde.p-3(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+          img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-6.svg', alt='Texto descriptivo de la imagen')
+          .my-auto
+            p.pe-xl-3.mb-2.text-bold Sección 3
+            span Actividades prácticas que permitirán a los estudiantes aplicar los conceptos aprendidos y reflexionar sobre su propia motivación y habilidades interpersonales.
 
+    .row.mb-0
+      .col-12.col-xl-7
+        .bg-amarillo.p-4
+          span Se sugiere que los estudiantes cuenten con conocimientos previos sobre conceptos básicos de psicología, lo que facilitará una comprensión más profunda de los temas tratados. Al considerar estos aspectos, se busca que la introducción no solo informe, sino que también motive y prepare a los estudiantes, para un proceso de aprendizaje efectivo en esta modalidad virtual.
+      .col-5.d-none.d-xl-block
+        img(src='@/assets/curso/unidad/img-7.png', alt='Texto que describa la imagen')
+    
+    p
+    
 </template>

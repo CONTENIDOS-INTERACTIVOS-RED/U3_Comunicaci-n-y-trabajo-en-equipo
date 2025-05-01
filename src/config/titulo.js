@@ -1,1 +1,1 @@
-module.exports = 'Comunicación en el entorno empresarial'
+module.exports = 'Motivación y orientación al cambio'
