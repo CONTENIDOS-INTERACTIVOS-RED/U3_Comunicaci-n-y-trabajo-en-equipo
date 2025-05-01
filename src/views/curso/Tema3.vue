@@ -121,7 +121,7 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Comunicación Organizacional',
+      tema: 'Motivación y orientación al cambio',
       titulo: 'Ponte a prueba',
       introduccion:
         'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
@@ -130,149 +130,133 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es el principal objetivo de la comunicación organizacional?',
+            '¿Qué tipo de motivación se asocia generalmente con recompensas tangibles, como dinero o premios?',
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto:
-                'Garantizar el cumplimiento estricto de las órdenes de la gerencia.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto:
-                'Facilitar el flujo de información y mejorar la interacción dentro de la empresa.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Evitar el uso de tecnologías en la comunicación interna.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto:
-                'Limitar la comunicación entre empleados para evitar conflictos.',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Motivación intrínseca', esCorrecta: false },
+            { id: 'b', texto: 'Motivación extrínseca', esCorrecta: true },
+            { id: 'c', texto: 'Motivación social', esCorrecta: false },
+            { id: 'd', texto: 'Motivación académica', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. La comunicación organizacional tiene como objetivo optimizar la interacción entre los miembros de una empresa, asegurando que la información fluya de manera clara, eficiente y bidireccional para mejorar la coordinación y el desempeño general.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 2,
           texto:
-            '¿Qué tipo de comunicación se utiliza cuando un empleado informa directamente a su superior sobre un problema en la producción?',
+            '¿Cuál de los siguientes ejemplos representa mejor la motivación intrínseca?',
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Comunicación descendente', esCorrecta: false },
-            { id: 'b', texto: 'Comunicación ascendente.', esCorrecta: true },
-            { id: 'c', texto: 'Comunicación horizontal', esCorrecta: false },
-            { id: 'd', texto: 'Comunicación lateral', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Un estudiante que estudia para obtener una beca.ca',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Un empleado que trabaja duro porque le apasiona su proyecto.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Un atleta que entrena para ganar una medalla.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Un músico que toca en un evento para recibir dinero.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. La comunicación ascendente ocurre cuando la información fluye desde los niveles inferiores hacia los superiores dentro de una organización, permitiendo a los empleados expresar inquietudes, ideas o problemas a la gerencia.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 3,
-          texto:
-            '¿Cuál de las siguientes NO es una barrera de la comunicación organizacional?',
+          texto: '¿Qué describe la teoría de la autodeterminación?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Falta de claridad en los mensajes',
+              texto:
+                'La motivación depende únicamente de recompensas externas.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Exceso de canales de comunicación',
-              esCorrecta: false,
+              texto:
+                'Se basa en la satisfacción de necesidades psicológicas intrínsecas.',
+              esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Diferencias culturales y generacionales',
+              texto: 'La motivación es fija e inalterable.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Escucha activa y retroalimentación constante.',
-              esCorrecta: true,
+              texto: 'Ignora las relaciones interpersonales.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. La escucha activa y la retroalimentación favorecen la comunicación efectiva. En cambio, la falta de claridad, el exceso de canales y las diferencias culturales pueden generar confusión y dificultar la interacción dentro de la organización.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 4,
-          texto:
-            '¿Qué característica distingue a un equipo de trabajo efectivo?',
+          texto: '¿Qué papel juega la autoconfianza en la motivación?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Cada miembro trabaja de manera individual sin necesidad de coordinación.',
+              texto: 'Es irrelevante para el cambio.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Existen objetivos claros y definidos, y se fomenta la colaboración.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Los conflictos se evitan completamente sin resolverlos.',
+              texto: 'Permite a las personas adaptarse sin esfuerzo.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto:
+                'Aumenta la disposición a enfrentar cambios y perseverar en los objetivos.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Solo el líder toma decisiones sin consultar al equipo.',
+              texto: 'Solo afecta a los estudiantes.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Un equipo de trabajo efectivo se basa en objetivos bien definidos, colaboración, comunicación clara y la participación de todos en la toma de decisiones.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 5,
-          texto:
-            '¿Cuál de los siguientes elementos es clave para una comunicación asertiva en el trabajo?',
+          texto: 'El cambio personal se define como un proceso',
           barajarRespuestas: true,
           opciones: [
+            { id: 'a', texto: 'Indiferente al ser humano', esCorrecta: false },
             {
-              id: 'a',
-              texto: 'Evitar expresar desacuerdos para no generar conflictos.',
+              id: 'b',
+              texto: 'Constante pero no para todos',
               esCorrecta: false,
             },
             {
-              id: 'b',
-              texto:
-                'Expresar ideas con claridad y respeto, manteniendo una actitud empática.',
-              esCorrecta: true,
-            },
-            {
               id: 'c',
-              texto:
-                'Hablar de manera impulsiva sin pensar en las consecuencias.',
+              texto: 'Estático y depende de contexto económicos y políticos',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Interrumpir a los demás cuando se tiene un punto importante.',
-              esCorrecta: false,
+              texto: 'Constante que pone a prueba nuevas habilidades',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. La comunicación asertiva permite expresar pensamientos y sentimientos con claridad y respeto, fomentando un ambiente de trabajo positivo y colaborativo.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
       ],
       mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
