@@ -21,7 +21,7 @@
         div.px-5.pb-md-3.py-4.d-flex
           .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
             h2.mb-4.pb-2.me-auto Autoconocimiento, autoconciencia y autodisciplina
-            p.mb-5(data-aos="fade-up") En el PDF Autoconocimiento , se aborda cómo estas tres competencias personales actúan como pilares fundamentales para iniciar y sostener procesos de transformación profunda. A través del reconocimiento honesto de fortalezas y debilidades, la observación consciente del propio comportamiento y el compromiso disciplinado con los objetivos, se facilita la construcción de cambios duraderos que impactan positivamente en la vida personal, académica y profesional.
+            p.mb-5(data-aos="fade-up") En el PDF Autoconocimiento, se aborda cómo estas tres competencias personales actúan como pilares fundamentales para iniciar y sostener procesos de transformación profunda. A través del reconocimiento honesto de fortalezas y debilidades, la observación consciente del propio comportamiento y el compromiso disciplinado con los objetivos, se facilita la construcción de cambios duraderos que impactan positivamente en la vida personal, académica y profesional.
             a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Autoconocimiento.pdf')" target="_blank")
               img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
               p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Autoconocimiento, autoconciencia y autodisciplina
@@ -41,7 +41,7 @@
             img.h-100(src='@/assets/curso/unidad/img-63.png', alt='Texto que describa la imagen')
           .col-12.col-xl-7.d-flex.ps-4.ps-xl-5.align-items-center.flex-column
             h2.mb-4.pb-2.me-auto Gestión emocional
-            p.mb-5(data-aos="fade-up") En el PDF Gestión emocional , se examina cómo el reconocimiento, manejo y canalización consciente de las emociones se convierte en una habilidad clave para sostener procesos de cambio significativos. A partir del concepto de inteligencia emocional, se abordan estrategias para enfrentar el autosabotaje, desarrollar resiliencia y fortalecer relaciones interpersonales, permitiendo que las emociones funcionen como aliadas en lugar de obstáculos en el camino hacia el crecimiento personal.
+            p.mb-5(data-aos="fade-up") En el PDF Gestión emocional, se examina cómo el reconocimiento, manejo y canalización consciente de las emociones se convierte en una habilidad clave para sostener procesos de cambio significativos. A partir del concepto de inteligencia emocional, se abordan estrategias para enfrentar el autosabotaje, desarrollar resiliencia y fortalecer relaciones interpersonales, permitiendo que las emociones funcionen como aliadas en lugar de obstáculos en el camino hacia el crecimiento personal.
             a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Gestión emocional.pdf')" target="_blank")
               img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
               p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Gestión emocional
@@ -80,7 +80,7 @@
             img.h-100(src='@/assets/curso/unidad/img-66.png', alt='Texto que describa la imagen') 
           .col-12.col-xl-7.d-flex.ps-4.ps-xl-5.align-items-center.flex-column
             h2.mb-4.pb-2.me-auto Empatía y red de apoyo
-            p.mb-5(data-aos="fade-up") En el PDF Empatía y red de apoy o, se explora cómo la capacidad de comprender y conectar con los demás, así como de construir vínculos significativos, puede fortalecer la resiliencia, fomentar la autocompasión y facilitar el cambio. Además, se destaca la importancia de rodearse de personas que brinden apoyo y estímulo, así como de cultivar una actitud abierta al aprendizaje continuo, aspectos clave para avanzar con seguridad y confianza hacia metas personales y profesionales.
+            p.mb-5(data-aos="fade-up") En el PDF Empatía y red de apoyo, se explora cómo la capacidad de comprender y conectar con los demás, así como de construir vínculos significativos, puede fortalecer la resiliencia, fomentar la autocompasión y facilitar el cambio. Además, se destaca la importancia de rodearse de personas que brinden apoyo y estímulo, así como de cultivar una actitud abierta al aprendizaje continuo, aspectos clave para avanzar con seguridad y confianza hacia metas personales y profesionales.
             a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Empatía y red de apoyo.pdf')" target="_blank")
               img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
               p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Empatía y red de apoyo      

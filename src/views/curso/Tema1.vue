@@ -136,7 +136,7 @@
         .bg-amarillo.p-4
           span Freud propuso que los instintos son fuerzas motivacionales primarias y fundamentales, identificando principalmente dos tipos. El primero, Eros, conocido como el instinto de vida, se relaciona con la sexualidad, la preservación de la vida y la búsqueda de placer. Este instinto abarca no solo el impulso sexual, sino también la necesidad de amor, afecto y conexión social. 
 
-    .row.bg-verde-oscuro.p-4.py-xl-0
+    .row.bg-verde-oscuro.p-4.py-xl-0.mb-4
       .col-12.col-xl-10
         .my-auto.py-xl-4.text-white
           p.mb-4 En contraste, Thanatos, o el instinto de muerte, representa una tendencia hacia la agresión, la autodestrucción y la hostilidad.
@@ -200,7 +200,7 @@
       .col-2.d-none.d-xl-block
         img(src='@/assets/curso/unidad/img-29.png', alt='Texto que describa la imagen')
       .col-12.col-xl-10
-        .my-auto.py-xl-4
+        .my-auto.py-xl-4.px-4.px-xl-0
           span A pesar de su amplia aceptación y aplicación, la teoría de Maslow ha enfrentado críticas. Algunos detractores argumentan que la jerarquía no necesariamente sigue un orden lineal, y que las personas pueden buscar satisfacer varias necesidades simultáneamente. Además, las diferencias culturales pueden influir en la priorización de estas necesidades; por ejemplo, en algunas culturas, las necesidades de pertenencia pueden ser consideradas más importantes que las de autorrealización.
 
     .row.mb-4 

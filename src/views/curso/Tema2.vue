@@ -40,7 +40,7 @@
         div.px-5.pb-md-3.py-4.d-flex
           .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
             h2.mb-4.pb-2.me-auto Motivación biológica
-            p.mb-5(data-aos="fade-up") En el PDF Motivación biológica,  se analiza cómo estas necesidades, como el hambre, la sed o el sueño, activan procesos internos que dirigen el comportamiento hacia la restauración del equilibrio corporal. Además, se profundiza en la manera en que estas formas de motivación influyen y, en muchos casos, predominan sobre otros tipos de motivación, configurando así la base sobre la cual se construyen niveles más complejos del accionar humano.
+            p.mb-5(data-aos="fade-up") En el PDF Motivación biológica, se analiza cómo estas necesidades, como el hambre, la sed o el sueño, activan procesos internos que dirigen el comportamiento hacia la restauración del equilibrio corporal. Además, se profundiza en la manera en que estas formas de motivación influyen y, en muchos casos, predominan sobre otros tipos de motivación, configurando así la base sobre la cual se construyen niveles más complejos del accionar humano.
             a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Motivación biológica.pdf')" target="_blank")
               img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
               p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Motivación biológica
@@ -75,7 +75,7 @@
         div.px-5.pb-md-3.py-4.d-flex
           .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
             h2.mb-4.pb-2.me-auto Motivación al logro
-            p.mb-5(data-aos="fade-up") En el PDF Motivación al logro , se analiza este tipo de impulso interno que lleva a las personas a fijarse objetivos ambiciosos, perseverar frente a los obstáculos y buscar constantemente la excelencia. Además, se explora el aporte de teorías psicológicas como la de David McClelland, así como la relación entre esta motivación y habilidades clave como la autodisciplina, la autorregulación y la mentalidad de crecimiento, fundamentales para el éxito sostenido en entornos educativos, laborales y personales.
+            p.mb-5(data-aos="fade-up") En el PDF Motivación al logro, se analiza este tipo de impulso interno que lleva a las personas a fijarse objetivos ambiciosos, perseverar frente a los obstáculos y buscar constantemente la excelencia. Además, se explora el aporte de teorías psicológicas como la de David McClelland, así como la relación entre esta motivación y habilidades clave como la autodisciplina, la autorregulación y la mentalidad de crecimiento, fundamentales para el éxito sostenido en entornos educativos, laborales y personales.
             a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Motivación al logro.pdf')" target="_blank")
               img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
               p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Motivación al logro
